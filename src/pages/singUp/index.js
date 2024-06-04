@@ -43,7 +43,7 @@ function SingUp() {
                     </a>
                   </p>
                 </label>
-                <ButtonSingUp>Sign Up</ButtonSingUp>
+                <ButtonSingUp>Sign up</ButtonSingUp>
               </div>
             </div>
           </div>
