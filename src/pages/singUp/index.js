@@ -1,6 +1,6 @@
 import styles from "./Login.module.css";
 import bg from "./imgLogin_1.jpeg";
-import { ButtonSingUp } from "../../components";
+import { BlackButton, MyInput, Title } from "../../components";
 
 function SingUp() {
   return (
@@ -18,20 +18,20 @@ function SingUp() {
 
           <div className={styles.right}>
             <div className={styles.title}>
-              <h4> Sing in</h4>
+              <Title>Sing Up</Title>
               <p>
                 Already have an account?{" "}
-                <a className={styles.linkSing} href="aaa">
+                <a className={styles.linkSing} href="http://localhost:3000/singIn">
                   Sing in
                 </a>
               </p>
               <div className={styles.signUp}>
-                <input placeholder="Your name" type="text"></input>
-                <input placeholder="User name" type="text"></input>
-                <input placeholder="Email address" type="email"></input>
-                <input placeholder="Password" type="password"></input>
+                <MyInput placeholder="Your name" type="text" />
+                <MyInput placeholder="User name" type="text" />
+                <MyInput placeholder="Email address" type="email" />
+                <MyInput placeholder="Password" type="password" />
                 <label className={styles.checkboxLabel}>
-                  <input type="checkbox" className={styles.checkbox} />
+                  <MyInput type="checkbox" className={styles.checkbox} />
                   <p>
                     I agree with{" "}
                     <a href="aaa" className={styles.linkPT}>
@@ -43,7 +43,7 @@ function SingUp() {
                     </a>
                   </p>
                 </label>
-                <ButtonSingUp>Sign up</ButtonSingUp>
+                <BlackButton>Sing Up</BlackButton>
               </div>
             </div>
           </div>

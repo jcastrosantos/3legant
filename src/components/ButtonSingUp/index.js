@@ -1,6 +1,5 @@
-import styles from './ButtonSingUp.module.css'
-export function ButtonSingUp(){
-    return <button className={styles.button}>Sign Up</button>
+import styles from "./ButtonSingUp.module.css";
+
+export function BlackButton({ children }) {
+  return <button className={styles.button}>{ children }</button>;
 }
-    
-// export default ButtonSingUp;
