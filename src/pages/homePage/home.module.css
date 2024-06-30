@@ -1,0 +1,38 @@
+.container{
+    background-color: yellow;
+    margin: 0px 32px ;
+    padding: 0px, 160px, 40px, 160px;
+}
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    
+    
+}
+.navBar{
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+   
+
+}
+.navBar a{
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 40px;
+    align-items: center;
+    color: black;
+}
+.icons{
+    width: 100px;
+    background-color: antiquewhite;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+}

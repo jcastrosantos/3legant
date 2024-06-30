@@ -1,3 +1,4 @@
 export * from "./ButtonSingUp";
-export * from "./Form";
-export * from "./Title"
+export * from "./MyInput";
+export * from "./Title";
+export * from "./Logo";

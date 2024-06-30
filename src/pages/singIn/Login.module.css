@@ -14,13 +14,6 @@
     text-align: center;
     background-color: #fefefe;
   }
-  .logo {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    width: 100%;
-    height: 24px;
-    position: relative;
-  }
   .backgroundLogin img {
     width: 100%;
     height: 100%;
@@ -83,6 +76,27 @@
   .backgroundLogin .signUp .checkboxLabel p a:active {
     bottom: -2px;
     right: -1px;
+  }
+  .backgroundLogin .signUp .password_toggle{
+    position: relative;
+  }
+  .backgroundLogin .signUp .password_toggle input{
+    width: 100%;
+  }
+  .backgroundLogin .signUp .password_toggle .btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    margin: 7px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+  }
+  .backgroundLogin .signUp .password_toggle img{
+    width: 26px;
+    
   }
   .backgroundLogin .signUp .checkboxLabel input {
     margin: 15px 0;

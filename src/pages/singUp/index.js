@@ -1,6 +1,7 @@
 import styles from "./Login.module.css";
 import bg from "./imgLogin_1.jpeg";
-import { BlackButton, MyInput, Title } from "../../components";
+// import eye from "../../images/eye-on.svg"
+import { BlackButton, MyInput, Title, Logo } from "../../components";
 
 function SingUp() {
   return (
@@ -8,7 +9,7 @@ function SingUp() {
       <div className={styles.container}>
         <div className={styles.backgroundLogin}>
           <div className={styles.left}>
-            <h2 className={styles.logo}>3legant.</h2>
+            <Logo></Logo>
             <img
               src={bg}
               alt="background"
@@ -21,7 +22,10 @@ function SingUp() {
               <Title>Sing Up</Title>
               <p>
                 Already have an account?{" "}
-                <a className={styles.linkSing} href="http://localhost:3000/singIn">
+                <a
+                  className={styles.linkSing}
+                  href="http://localhost:3000/singIn"
+                >
                   Sing in
                 </a>
               </p>
@@ -30,6 +34,8 @@ function SingUp() {
                 <MyInput placeholder="User name" type="text" />
                 <MyInput placeholder="Email address" type="email" />
                 <MyInput placeholder="Password" type="password" />
+                {/* <img src={eye} alt="eye-on"/> */}
+
                 <label className={styles.checkboxLabel}>
                   <MyInput type="checkbox" className={styles.checkbox} />
                   <p>
