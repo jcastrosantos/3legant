@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+h3 {
+  width: 248px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: start;
+  word-wrap: normal;
+}
+.ShowMore {
+  text-align: start;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding: 0;
+  background-color: white;
+  border-style: none none solid none;
+}
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 48px 0;
+}

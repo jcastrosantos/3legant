@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    width: 262px;
+    height: 220px;
+    padding: 48px 42px;
+    margin: 16px;
+    background-color: #F3F5F7;
+}
+.icon{
+    font-size: 48px;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.price{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C7275;
+}

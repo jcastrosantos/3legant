@@ -1,0 +1,22 @@
+.CardArticles{
+    text-align: left;
+}
+.imgCard{
+    width: 357px;
+    height: 325px;
+    margin-bottom: 12px;
+}
+.h2Card{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+button{
+    text-align: start;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    padding: 0;
+    background-color: white;
+    border-style: none none solid none;
+}

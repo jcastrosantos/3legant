@@ -1,38 +1,131 @@
-.container{
-    background-color: yellow;
-    margin: 0px 32px ;
-    padding: 0px, 160px, 40px, 160px;
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
-header{
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 100%;
-    
-    
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 0px;
 }
-.navBar{
-    text-align: center;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 500;
-   
-
+.navBar {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  
+  font-size: 14px;
 }
-.navBar a{
-    text-decoration: none;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 40px;
-    align-items: center;
-    color: black;
+.navBar a {
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 40px;
+  align-items: center;
+  color: #6C7275;
 }
-.icons{
-    width: 100px;
-    background-color: antiquewhite;
-    font-size: 23px;
-    display: flex;
-    justify-content: space-between;
+.navBar a:hover{
+  color: #141718;
+} 
+.icons {
+  width: 100px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+/* SLIDER SECTION */
+.sliderSection {
+  width: 100%;
+}
+.sliderSection img {
+  max-width: 100%;
+  height: auto;
+}
+.sliderSection .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sliderSection .header h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  text-align: left;
+  margin: 0;
+}
+.sliderSection .header p {
+  align-items: start;
+  margin-right: 15%;
+}
+/* BANNER GRID */
+.bannerGrid {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 0 auto;
+}
+.bannerGrid .LivingRoom:nth-child(1) {
+  grid-row: 1 / 3;
+}
+/* ARRIVALS */
+.arrivals {
+  flex-direction: row;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+/* VALUES */
+.values {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px auto;
+}
+/* BANNER */
+.banner {
+  display: flex;
+  width: 100%;
+  background-color: #f3f5f7;
+  text-align: left;
+}
+.banner .backgroundGrid {
+  width: 50%;
+}
+.banner .backgroundGrid img {
+  width: 100%;
+}
+.banner .bannerTitle {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.banner .bannerTitle .sale {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  color: #377dff;
+}
+.banner .bannerTitle .titleSale {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+}
+.banner .bannerTitle .Phosphorescent {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 5%;
+}
+/* BLOG SECTION */
+.blogSection{
+  padding:0 0 80px 0;
+}
+.blogSection .articles{
+  display: flex;
+  justify-content: space-between;
 }
