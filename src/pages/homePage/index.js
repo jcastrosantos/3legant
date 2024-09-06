@@ -3,18 +3,14 @@ import livingRoom2 from "../../images/LivingRoom2.jpeg";
 import salaCard from "../../images/salaCard.jpeg";
 import kitchenCard from "../../images/kitchenCard.jpeg";
 import bedRoomCard from "../../images/roomCard.jpeg";
+import styles from "./home.module.css";
 import {
-  CiSearch,
-  CiUser,
-  CiBag1,
   CiDeliveryTruck,
   CiCreditCard1,
   CiLock,
   CiPhone,
 } from "react-icons/ci";
-import styles from "./home.module.css";
 import {
-  Logo,
   CardLivingRooms,
   CardBedRoom,
   CardKitchen,
@@ -23,26 +19,16 @@ import {
   ValuesCard,
   ButtonShopNow,
   CardArticles,
+  Header,
+  Newsletter,
+  Footer,
 } from "../../components";
 
 function Home() {
   return (
     <main>
       <div className={styles.container}>
-        <header>
-          <Logo></Logo>
-          <div className={styles.navBar}>
-            <a href="##">Home</a>
-            <a href="##">Shop</a>
-            <a href="##">Product</a>
-            <a href="///">Contact Us</a>
-          </div>
-          <div className={styles.icons}>
-            <CiSearch />
-            <CiUser />
-            <CiBag1 />
-          </div>
-        </header>
+        <Header />
         <div className={styles.sliderSection}>
           <img src={sofa} alt="Sofa marron " title="Sofa marron"></img>
           <div className={styles.header}>
@@ -139,9 +125,10 @@ function Home() {
                 btnName={"Read more"}
               />
             </div>
-            
           </div>
         </div>
+        <Newsletter />
+        <Footer />
       </div>
     </main>
   );

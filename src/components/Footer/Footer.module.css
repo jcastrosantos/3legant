@@ -1,0 +1,93 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 160px 32px 160px;
+  justify-content: space-around;
+  color: #e8ecef;
+  background-color: #141718;
+  gap: 49px;
+}
+footer .footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footerContent .logoSlogan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footerContent .logoSlogan h2 {
+  border: 1px;
+  border-style: none solid none none;
+  border-color: #6c727580;
+  padding: 0 32px 0 0;
+}
+footer .footerContent .logoSlogan a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .footerContent .logoSlogan p {
+  padding: 0 0 0 32px;
+}
+footer .footerContent .navBar_2 {
+  display: flex;
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 40px;
+}
+footer .footerContent .navBar_2 a {
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  color: #fefefe;
+}
+footer .footerContent .navBar_2 a:hover {
+  color: #fff;
+}
+footer .footerBar {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 24px 0;
+  border: 1px;
+  border-color: #6c727580;
+  border-style: solid none none none;
+}
+footer .footerBar .copyright {
+  display: flex;
+  gap: 28px;
+  justify-content: space-between;
+}
+footer .footerBar .copyright a:link {
+  text-decoration: none;
+}
+footer .footerBar .copyright .copyText {
+  font-size: 12px;
+}
+footer .footerBar .copyright .privacyPolicy {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fefefe;
+}
+footer .footerBar .copyright .termsUse {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fefefe;
+}
+footer .footerBar .socialIcons {
+  display: flex;
+  flex-direction: row;
+  color: #fefefe;
+  gap: 24px;
+}
+footer .footerBar .socialIcons a {
+  cursor: pointer;
+  color: #fefefe;
+}

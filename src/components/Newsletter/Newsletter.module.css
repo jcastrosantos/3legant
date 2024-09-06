@@ -1,0 +1,49 @@
+.newsletter {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    background-image: url("../../images/bedroom.jpeg"),
+      url("../../images/ce147d8554c2cda7530244569e9d8515.jpeg");
+    background-repeat: no-repeat;
+    background-position: -30%, 160%;
+    background-size: 49%, 53%;
+  }
+  .newsletter .nsInputs {
+    margin: auto;
+    width: 30%;
+    gap: 8px;
+  }
+  .newsletter .nsInputs h2 {
+    font-size: 40px;
+  }
+  .newsletter .nsInputs p {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .newsletter .nsEmail {
+    align-items: center;
+    font-size: 24px;
+    border: 1px;
+    border-color: #6c727580;
+    border-style: none none solid none;
+  }
+  .newsletter .nsEmail input {
+    width: 80%;
+    background-color: transparent;
+  }
+  .newsletter .nsEmail button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6c7275;
+    border: none;
+    background-color: transparent;
+  }
+  .newsletter .nsEmail CiMail {
+    margin-top: 20px;
+  }
+  .newsletter .nsEmail button:hover {
+    color: #000;
+  }

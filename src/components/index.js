@@ -10,3 +10,6 @@ export * from "./CardArrivals";
 export * from "./ValuesCard";
 export * from "./ButtonShopNow";
 export * from "./CardArticles";
+export * from "./Header";
+export * from "./Newsletter";
+export * from "./Footer";
