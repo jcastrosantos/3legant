@@ -1,3 +1,18 @@
+.bedroom{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
 .bedroom img {
-  max-width: 100%;
+  max-width: 50%;
+}
+.bedroom .tittleAndButton{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.bedroom .tittleAndButton h2{
+ font-size: 34px;
+ font-weight: 500;
 }

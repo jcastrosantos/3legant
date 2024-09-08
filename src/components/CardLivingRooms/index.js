@@ -6,9 +6,9 @@ export function CardLivingRooms({ tittle, id }) {
   return (
     <>
       <div className={styles.livingRoom} id="livingRoom">
-        <img src={livingRoom} alt="gray armchair"></img>
         <h2 className="tittle">{tittle}</h2>
         <ButtonShopNow />
+        <img src={livingRoom} alt="gray armchair"/>
       </div>
     </>
   );

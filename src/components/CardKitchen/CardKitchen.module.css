@@ -1,3 +1,18 @@
+.kitchen {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
 .kitchen img {
-  max-width: 100%;
+  max-width: 50%;
+}
+.kitchen .tittleAndButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.kitchen .tittleAndButton h2 {
+  font-size: 34px;
+  font-weight: 500;
 }

@@ -30,7 +30,9 @@ function Home() {
       <div className={styles.container}>
         <Header />
         <div className={styles.sliderSection}>
-          <img src={sofa} alt="Sofa marron " title="Sofa marron"></img>
+          <div className={styles.sliderSectionImg}>
+            <img src={sofa} alt="Sofa marron " title="Sofa marron"></img>
+          </div>
           <div className={styles.header}>
             <h2>
               Simply Unique/<br></br>Simply Better.
@@ -44,8 +46,10 @@ function Home() {
         </div>
         <div className={styles.bannerGrid}>
           <CardLivingRooms className={"LivingRoom"} tittle={"Living Room"} />
-          <CardKitchen className={"kitchen"} tittle={"Kitchen"} />
-          <CardBedRoom className={"BedRoom"} tittle={"Bedroom"} />
+          <div className={styles.twoCards}>
+            <CardKitchen className={"kitchen"} tittle={"Kitchen"} />
+            <CardBedRoom className={"BedRoom"} tittle={"Bedroom"} />
+          </div>
         </div>
         <div className={styles.newArrivals}>
           <Headline tittle={"New Arrivals"} btnName={"More Product"} />

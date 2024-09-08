@@ -6,9 +6,11 @@ export function CardKitchen({ tittle, id }) {
   return (
     <>
       <div className={styles.kitchen} id="kitchen">
+        <div className={styles.tittleAndButton}>
+          <h2 className="tittle">{tittle}</h2>
+          <ButtonShopNow />
+        </div>
         <img src={kitchen} alt="toaster"></img>
-        <h2 className="tittle">{tittle}</h2>
-        <ButtonShopNow />
       </div>
     </>
   );

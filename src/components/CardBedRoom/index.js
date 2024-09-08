@@ -6,9 +6,11 @@ export function CardBedRoom({ tittle, id }) {
   return (
     <>
       <div className={styles.bedroom} id="bedroom">
+        <div className={styles.tittleAndButton}>
+          <h2 className="tittle">{tittle}</h2>
+          <ButtonShopNow />
+        </div>
         <img src={bedRoom} alt="commode"></img>
-        <h2 className="tittle">{tittle}</h2>
-        <ButtonShopNow />
       </div>
     </>
   );
